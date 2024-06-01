@@ -1,0 +1,49 @@
+body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 50%;
+    border: 3rem solid black;
+    padding: 2rem;
+    margin: 2rem auto;
+    background-color: white;
+}
+
+#canvas {
+    background-color: blue;
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+    filter: blur(3px);
+    border-radius: 1rem;
+}
+
+#painting1 {
+    width: 95%;
+    height: 6rem;
+    margin: 1rem auto;
+    background-color: gold;
+    border: 1rem solid white;
+    border-radius: 0 1rem 3rem 0;
+}
+
+#painting2 {
+    width: 80%;
+    height: 8rem;
+    margin: 3rem auto;
+    border: 1.5rem solid yellow;
+    background-color: purple;
+    border-radius: 2rem 3rem 0 1rem;
+}
+
+#painting3 {
+    width: 90%;
+    height: 4rem;
+    margin: 2rem auto;
+    background-color:aquamarine;
+    border: 1.25rem solid black;
+    border-radius: 0 0 4rem 0;
+}
